@@ -16,11 +16,12 @@ dependencies:
   - pycodestyle
   - autopep8
   - autoflake
-  - torchvision
+#  - torchvision
   - pytorch
   - tensorboard
   - pillow=6.1
   - pip:
     - antlr4-python3-runtime==4.8
     - petastorm
+    - torchvision
 prefix: eva
